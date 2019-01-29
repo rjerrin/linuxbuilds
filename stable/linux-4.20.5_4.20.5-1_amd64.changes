@@ -1,0 +1,43 @@
+Format: 1.8
+Date: Tue, 29 Jan 2019 10:07:56 +0530
+Source: linux-4.20.5
+Binary: linux-image-4.20.5 linux-headers-4.20.5 linux-libc-dev linux-image-4.20.5-dbg
+Architecture: source amd64
+Version: 4.20.5-1
+Distribution: bionic
+Urgency: low
+Maintainer: root <root@Jslm>
+Changed-By: root <root@Jslm>
+Description:
+ linux-headers-4.20.5 - Linux kernel headers for 4.20.5 on amd64
+ linux-image-4.20.5 - Linux kernel, version 4.20.5
+ linux-image-4.20.5-dbg - Linux kernel debugging symbols for 4.20.5
+ linux-libc-dev - Linux support headers for userspace development
+Changes:
+ linux-4.20.5 (4.20.5-1) bionic; urgency=low
+ .
+   * Custom built Linux kernel.
+Checksums-Sha1:
+ 390b3f85b8bdad20b827cf0e2c673fb6efccc7d5 1032 linux-4.20.5_4.20.5-1.dsc
+ d08447a304e417783a2d3dc164ff918ac2fc9d10 167058868 linux-4.20.5_4.20.5.orig.tar.gz
+ ddc267877d62f193585e1925e5c27c4857189dc6 264329 linux-4.20.5_4.20.5-1.diff.gz
+ 322b198e8433c72fc8acd4c15dab915b7082c4d7 5408 linux-4.20.5_4.20.5-1_amd64.buildinfo
+ d9e09fe44ae7942b10e615f07733f1332d22010f 11015396 linux-headers-4.20.5_4.20.5-1_amd64.deb
+ b9f0192ad99385ee5cb5d4e24afb8aed16fb486f 52339292 linux-image-4.20.5_4.20.5-1_amd64.deb
+ adfb2183722d9eebbb5ea0a2d8823d9e21f93f1d 1022520 linux-libc-dev_4.20.5-1_amd64.deb
+Checksums-Sha256:
+ c9ba1664d16c8dc78c8bf1c62c29fe4070400d8b4c2fdb9a3c1902e43229284b 1032 linux-4.20.5_4.20.5-1.dsc
+ 763b8c8a69281faf8a7e82d35e98e92dab87cef3c92c7a8dbcd0d2e3316b776b 167058868 linux-4.20.5_4.20.5.orig.tar.gz
+ f48fafdf1c978eea910d414ceabb75ea93268423862dd22279e4a9cebc01df44 264329 linux-4.20.5_4.20.5-1.diff.gz
+ 94f209d3fccb4394337ba8054133694a88f9715843bac2b0cf4d6ccce16e82b9 5408 linux-4.20.5_4.20.5-1_amd64.buildinfo
+ 8ff643259729c76c63f56f629128f7248adbc9f21a90e8765ec3ff97893a130c 11015396 linux-headers-4.20.5_4.20.5-1_amd64.deb
+ 7640272d9032aaf8c94ca2fa917955b5d51de2fa4ab6c62ab8f92f0abddc1000 52339292 linux-image-4.20.5_4.20.5-1_amd64.deb
+ 111779a749a2adfbaf526175b5506c37e4140e0b26cf0abf2d29dbdb976de19e 1022520 linux-libc-dev_4.20.5-1_amd64.deb
+Files:
+ de9e3d1ebe122b32eb6310d9e6d622ed 1032 kernel optional linux-4.20.5_4.20.5-1.dsc
+ f7368d692dc2f4e5f5ac216d5ddcf360 167058868 kernel optional linux-4.20.5_4.20.5.orig.tar.gz
+ 2faa50ff906633fd151c00e0b2f74cbc 264329 kernel optional linux-4.20.5_4.20.5-1.diff.gz
+ 8e19e3e4484c6de8644904b32a3eb63e 5408 kernel optional linux-4.20.5_4.20.5-1_amd64.buildinfo
+ 12c6a0770821fd29d0cab5e71dcfea0c 11015396 kernel optional linux-headers-4.20.5_4.20.5-1_amd64.deb
+ c635acc1cf2d5803c0837d6b84f80c16 52339292 kernel optional linux-image-4.20.5_4.20.5-1_amd64.deb
+ 584656f974c37ecdcaa3b8eaa59d08a9 1022520 devel optional linux-libc-dev_4.20.5-1_amd64.deb
